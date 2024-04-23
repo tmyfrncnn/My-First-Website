@@ -61,18 +61,28 @@ hr {
     font-family: 'Poppins';
     word-wrap: break-word;
     margin: auto;
-    width: 60%;
+    width: 75%;
     font-size: 16px;
     line-height: 25px;
   }
 
 .aboutMe .introTitle {
     margin-bottom: 3%;
+    margin-top: 3%;
   }
 
 .aboutMe .outro {
     margin-top: 3%;
   }
+
+  .aboutMe_hr {
+    background-color: #010203;
+    height: .7px;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;}
 
 .container {
     margin: auto;
@@ -81,19 +91,20 @@ hr {
 .workTitle {
     font-family: 'Poppins';
     margin: auto;
-    width: 60%;
+    width: 75%;
     font-size: 16px;
     line-height: 25px;
     margin-bottom: 3%;
+    margin-top: 2%;
 }
 
 .gridContainer{
     display: grid;
     align-content: center;
-    column-gap: 10px;
+    column-gap: 15px;
     row-gap: 10px;
     grid-template-columns: auto auto auto;
-    width: 60%;
+    width: 75%;
 }
 
 .gridItem img {
@@ -104,8 +115,9 @@ hr {
     text-align:left;
     font-family: 'Poppins';
     margin: auto;
+    margin-top: 2%;
     margin-bottom: 2%;
-    width: 60%;
+    width: 75%;
     font-size: 16px;
 }
 
@@ -113,18 +125,21 @@ hr {
     text-align:left;
     font-family: 'Poppins';
     margin: auto;
-    width: 60%;
+    width: 75%;
     font-size: 16px;
     margin-bottom: 3%;
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
 }
 
 .socialsLink a {
     text-decoration: none;
     color: #010203;
     font-weight: 500;
-    margin-right: 20%;
+    margin-bottom: 2%;
 }
-
 
 .footerHR {
     background-color: #010203;
