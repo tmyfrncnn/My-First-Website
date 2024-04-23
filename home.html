@@ -3,89 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-    </style>
+    <link rel="stylesheet" href="style.css">
         
     <title>My First Website</title>
 </head>
 
-<body
-    style="background-color: #FAF9F6;">
-    
-    <div
-        style="text-align:center;
-        margin-top: 2%;
-        font-family: 'Poppins';">
-            👋🏼 My  Name is Tea and I am a
-    </div>
+<body>
 
-    <img
+    <nav class="nav">
+        <a href="home.html"><img src="/assets/Home Button - Logo.svg"></a>
+        <ul>
+            <li><a href="#works">Works</a></li>
+        <li><a href="#socials">Socials</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <div class="intro">
+            👋🏼 My  Name is Tea and I am a
+        </div>
+    
+        <img class="intro"
         draggable="false"
         src="assets/Home Image 1.png"
-        alt="Introductory Image"
-        
-        style="width:35%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 1%;">
+        alt="Introductory Image">
+    </main>
 
-    <hr
-    style="max-width: 80%;
-    margin-top: 2%;
-    margin-bottom: 2%;">
+    <hr/>
 
-    <div
-        style="text-align:center;
-        font-family: 'Poppins';
-        word-wrap: break-word;
-        margin: auto;
-        width: 38%;
-        font-size: 16px;
-        line-height: 30px;">
-
-            I like to draw and take pictures. Currently into Vkei (a music genre)
-            bands specifically Malice Mizer and Versailles. Obsessed with two things: <b>Chai and Piplup</b>.
-
-    </div>
-
-    <hr
-    style="max-width: 80%;
-    margin-top: 2%;
-    margin-bottom: 2%;">
-
-    <div
-        style="font-family: 'Poppins';
-        font-weight: bold;
-        text-align: center;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 25%;
-        margin: auto;">
-        
-        Let's be mutuals 🙇🏼
-
-        <div>
-            <a style="text-decoration: none;"
-            href="/riot.html" target="_blank">
-                <img style="width: 30px;" src="assets/Logo 1.png">
-            </a>
-
-            <a style="text-decoration: none;"
-            href="/discord.html" target="_blank">
-                <img style="width: 30px; padding-right: 15px; padding-left: 15px;" src="assets/Logo-2.png">
-            </a>
-
-            <a style="text-decoration: none;"
-            href="/steam.html" target="_blank">
-                <img style="width: 30px;" src="assets/Logo-3.png">
-            </a>
+    <section class="aboutMe">
+        <div class="introTitle">
+            <b>ABOUT ME</b>
         </div>
 
+        <div>
+            A Graphic and UI/UX designer who wants transition to Front-End Development. With a blend of design expertise and coding skills, I am poised to craft engaging digital experiences.
+        </div>
+
+        <div class="outro">
+            Let's work together to innovate and achieve our goals collaboratively.
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="works">
+        <div class="workTitle">
+            <b>SOME OF MY WORKS</b>
+        </div>
+
+        <div class="container gridContainer">
+            <div class="gridItem">
+                <img draggable="false" src="assets/Work 1.png">
+            </div>
+
+            <div class="gridItem">
+                <img draggable="false" src="assets/Work 2.png">
+            </div>
+
+            <div class="gridItem">
+                <img draggable="false" src="assets/Work 3.png">
+            </div>
+
+            <div class="gridItem">
+                <img draggable="false" src="assets/Work 4.png">
+            </div>
+
+            <div class="gridItem">
+                <img draggable="false" src="assets/Work 5.png">
+            </div>
+        </div>
+    </section>
+
+    <hr/>
+
+    <section id="socials">
+        <div class="socialsTitle">
+            <b>LET'S BE MUTUALS 🙇🏼</b>
+        </div>
+
+        <div class="socialsLink">
+            <a href="https://github.com/tmyfrncnn" target="_blank">Github</a>
+            <a href="https://www.behance.net/tmyfrncnn" target="_blank">Behance</a>
+            <a href="https://www.linkedin.com/in/tmyfrncnn/" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+
+    <div class="footerHR">
     </div>
+
+    <footer>
+        <div class="footerDiv">
+            <a>©2024 tmyfrncnn</a>
+            <a>|</a>
+            <a>All Rights Reserved</a>
+        </div>
+    </footer>
 
 </body>
 </html>
